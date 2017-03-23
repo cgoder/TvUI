@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B8BF9E81-35FD-4582-BA1C-B85FA365BABB}</ProjectGuid>
+    <RootNamespace>castTV-win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\cocos2d-x-3.10\cocos\2d\cocos2dx.props" />
+    <Import Project="..\..\cocos2d-x-3.10\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="..\..\cocos2d-x-3.10\cocos\2d\cocos2dx.props" />
+    <Import Project="..\..\cocos2d-x-3.10\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\castTV\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\castTV\$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\castTV\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(EngineRoot);..\;..\setting\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)$(Configuration).win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>
+xcopy "$(ProjectDir)..\res" "$(OutDir)\res" /D /E /I /F /Y
+xcopy "$(OutDir)..\*.dll" "$(OutDir)" /D /Y</Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Message>Copy files</Message>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)$(Configuration).win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>
+xcopy "$(ProjectDir)..\res" "$(OutDir)\res" /D /E /I /F /Y
+xcopy "$(OutDir)..\*.dll" "$(OutDir)" /D /Y</Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Message>Copy files</Message>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\AppDelegate.cpp" />
+    <ClCompile Include="..\AutoTuning\ATVAutoTuning.cpp" />
+    <ClCompile Include="..\AutoTuning\AutoTuning.cpp" />
+    <ClCompile Include="..\AutoTuning\CableAutoTuning.cpp" />
+    <ClCompile Include="..\AutoTuning\CableType.cpp" />
+    <ClCompile Include="..\AutoTuning\ChooseDialog.cpp" />
+    <ClCompile Include="..\AutoTuning\SateAutoTuning.cpp" />
+    <ClCompile Include="..\AutoTuning\TerreAutoTuning.cpp" />
+    <ClCompile Include="..\ChannelEdit\ChannelEdit.cpp" />
+    <ClCompile Include="..\ChannelEdit\ElementDisplayList.cpp" />
+    <ClCompile Include="..\ChannelList\ChannelList.cpp" />
+    <ClCompile Include="..\ChannelList\ChannelListPage.cpp" />
+    <ClCompile Include="..\ChannelList\ChannelListPageFavorite.cpp" />
+    <ClCompile Include="..\ChannelList\ChannelListPageRecorded.cpp" />
+    <ClCompile Include="..\ChannelList\ChannelListPageSchRecording.cpp" />
+    <ClCompile Include="..\ChannelList\ChannelListPageSchViewing.cpp" />
+    <ClCompile Include="..\ChannelList\ChannelListTableView.cpp" />
+    <ClCompile Include="..\common\ChannelPin.cpp" />
+    <ClCompile Include="..\ChannelList\CustomTableViewCell.cpp" />
+    <ClCompile Include="..\common\BaseTableViewCell.cpp" />
+    <ClCompile Include="..\common\BtnFocusLayer.cpp" />
+    <ClCompile Include="..\common\common.cpp" />
+    <ClCompile Include="..\common\KeyBoard.cpp" />
+    <ClCompile Include="..\common\ListFocusLayer.cpp" />
+    <ClCompile Include="..\common\SetPassword.cpp" />
+    <ClCompile Include="..\common\SkyDialog.cpp" />
+    <ClCompile Include="..\common\SkyLayer.cpp" />
+    <ClCompile Include="..\epg\ChannelHeadView.cpp" />
+    <ClCompile Include="..\epg\EpgList.cpp" />
+    <ClCompile Include="..\epg\GridView\GridView.cpp" />
+    <ClCompile Include="..\epg\TimeHeadView.cpp" />
+    <ClCompile Include="..\eventdispacher\EventDispacher.cpp" />
+    <ClCompile Include="..\eventdispacher\EventManager.cpp" />
+    <ClCompile Include="..\guide\GuideComplete.cpp" />
+    <ClCompile Include="..\guide\GuideCountry.cpp" />
+    <ClCompile Include="..\guide\GuideSource.cpp" />
+    <ClCompile Include="..\localMedia\audioList.cpp" />
+    <ClCompile Include="..\localMedia\deviceDetect.cpp" />
+    <ClCompile Include="..\localMedia\localAudioPlayer.cpp" />
+    <ClCompile Include="..\localMedia\localMedia.cpp" />
+    <ClCompile Include="..\localMedia\localPicturePlayer.cpp" />
+    <ClCompile Include="..\localMedia\localVideoPlayer.cpp" />
+    <ClCompile Include="..\localMedia\pictureList.cpp" />
+    <ClCompile Include="..\localMedia\videoList.cpp" />
+    <ClCompile Include="..\ManualScan\ATV_ManualScan.cpp" />
+    <ClCompile Include="..\ManualScan\DVBC_ManualScan.cpp" />
+    <ClCompile Include="..\ManualScan\DVBT_ManualScan.cpp" />
+    <ClCompile Include="..\ManualScan\ManualScan.cpp" />
+    <ClCompile Include="..\menu\AdvanceResponse.cpp" />
+    <ClCompile Include="..\menu\channelMenu.cpp" />
+    <ClCompile Include="..\menu\ChannelResponse.cpp" />
+    <ClCompile Include="..\menu\DropdownUI.cpp" />
+    <ClCompile Include="..\menu\firstMenu.cpp" />
+    <ClCompile Include="..\menu\MainResponse.cpp" />
+    <ClCompile Include="..\menu\MenuBaseUI.cpp" />
+    <ClCompile Include="..\menu\MenuControl.cpp" />
+    <ClCompile Include="..\menu\MenuLayer.cpp" />
+    <ClCompile Include="..\menu\MenuResponse.cpp" />
+    <ClCompile Include="..\menu\PictureMenu\PictureMenuExecutor.cpp" />
+    <ClCompile Include="..\menu\PictureResponse.cpp" />
+    <ClCompile Include="..\menu\SetupResponse.cpp" />
+    <ClCompile Include="..\menu\SetupSubResponse.cpp" />
+    <ClCompile Include="..\menu\SoundMenu\SoundMenuExecutor.cpp" />
+    <ClCompile Include="..\menu\SoundModeResponse.cpp" />
+    <ClCompile Include="..\menu\SoundResponse.cpp" />
+    <ClCompile Include="..\menu\TimeResponse.cpp" />
+    <ClCompile Include="..\menu\TimeSubResponse.cpp" />
+    <ClCompile Include="..\pf\PfInfo.cpp" />
+    <ClCompile Include="..\rec\CppSQLite3.cpp" />
+    <ClCompile Include="..\rec\PVRRecodingComplete.cpp" />
+    <ClCompile Include="..\rec\PVRRecodingThumbnail.cpp" />
+    <ClCompile Include="..\rec\PVRRecordDB.cpp" />
+    <ClCompile Include="..\rec\PVRStartDialog.cpp" />
+    <ClCompile Include="..\rec\PVRUI.cpp" />
+    <ClCompile Include="..\rec\PVRUpdateProgressBar.cpp" />
+    <ClCompile Include="..\rec\PVRUpdateTime.cpp" />
+    <ClCompile Include="..\setting\AudioSetting.cpp" />
+    <ClCompile Include="..\setting\CAudioService.cpp" />
+    <ClCompile Include="..\setting\CDatabaseService.cpp" />
+    <ClCompile Include="..\setting\CPictureService.cpp" />
+    <ClCompile Include="..\setting\PictureSetting.cpp" />
+    <ClCompile Include="..\setting\UiSystemDataBase.cpp" />
+    <ClCompile Include="..\skyscanapi\skyScanAtv.cpp" />
+    <ClCompile Include="..\skyscanapi\skyScanDvbC.cpp" />
+    <ClCompile Include="..\skyscanapi\skyScanDvbS.cpp" />
+    <ClCompile Include="..\skyscanapi\skyScanDvbT.cpp" />
+    <ClCompile Include="..\skyscanapi\skyScanUiApi.cpp" />
+    <ClCompile Include="..\sources\noSignal.cpp" />
+    <ClCompile Include="..\sources\SignalSources.cpp" />
+    <ClCompile Include="..\sqlite3\sqlite3.c" />
+    <ClCompile Include="..\tvplay.cpp" />
+    <ClCompile Include="..\tvplayer\atvplayer.cpp" />
+    <ClCompile Include="..\tvplayer\CChannel.cpp" />
+    <ClCompile Include="..\tvplayer\CChannelManager.cpp" />
+    <ClCompile Include="..\tvplayer\CChannelService.cpp" />
+    <ClCompile Include="..\tvplayer\CCPvrManager.cpp" />
+    <ClCompile Include="..\tvplayer\CEpgManager.cpp" />
+    <ClCompile Include="..\tvplayer\CEpgService.cpp" />
+    <ClCompile Include="..\tvplayer\CPlayerService.cpp" />
+    <ClCompile Include="..\tvplayer\CScheduleManager.cpp" />
+    <ClCompile Include="..\tvplayer\CSystemService.cpp" />
+    <ClCompile Include="..\tvplayer\CTime.cpp" />
+    <ClCompile Include="..\tvplayer\dtvplayer.cpp" />
+    <ClCompile Include="..\tvplayer\MediaPlayer.cpp" />
+    <ClCompile Include="..\tvplayer\TvPlayer.cpp" />
+    <ClCompile Include="..\tvplayer\tv_common.cpp" />
+    <ClCompile Include="..\tvreminder\TvReminder.cpp" />
+    <ClCompile Include="..\tvScene.cpp" />
+    <ClCompile Include="main_Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\AppDelegate.h" />
+    <ClInclude Include="..\AutoTuning\ATVAutoTuning.h" />
+    <ClInclude Include="..\AutoTuning\AutoTuning.h" />
+    <ClInclude Include="..\AutoTuning\CableAutoTuning.h" />
+    <ClInclude Include="..\AutoTuning\CableType.h" />
+    <ClInclude Include="..\AutoTuning\ChooseDialog.h" />
+    <ClInclude Include="..\AutoTuning\SateAutoTuning.h" />
+    <ClInclude Include="..\AutoTuning\TerreAutoTuning.h" />
+    <ClInclude Include="..\ChannelEdit\ChannelEdit.h" />
+    <ClInclude Include="..\ChannelEdit\ElementDisplayList.h" />
+    <ClInclude Include="..\ChannelList\ChannelList.h" />
+    <ClInclude Include="..\ChannelList\ChannelListPage.h" />
+    <ClInclude Include="..\ChannelList\ChannelListPageFavorite.h" />
+    <ClInclude Include="..\ChannelList\ChannelListTableView.h" />
+    <ClInclude Include="..\common\ChannelPin.h" />
+    <ClInclude Include="..\ChannelList\CustomTableViewCell.h" />
+    <ClInclude Include="..\common\BaseTableViewCell.h" />
+    <ClInclude Include="..\common\BtnFocusLayer.h" />
+    <ClInclude Include="..\common\common.h" />
+    <ClInclude Include="..\common\KeyBoard.h" />
+    <ClInclude Include="..\common\ListFocusLayer.h" />
+    <ClInclude Include="..\common\SkyDialog.h" />
+    <ClInclude Include="..\common\SkyLayer.h" />
+    <ClInclude Include="..\common\slock.h" />
+    <ClInclude Include="..\epg\ChannelHeadView.h" />
+    <ClInclude Include="..\epg\EpgList.h" />
+    <ClInclude Include="..\epg\GridView\GridView.h" />
+    <ClInclude Include="..\epg\TimeHeadView.h" />
+    <ClInclude Include="..\guide\GuideComplete.h" />
+    <ClInclude Include="..\guide\GuideCountry.h" />
+    <ClInclude Include="..\guide\GuideSource.h" />
+    <ClInclude Include="..\localMedia\audioList.h" />
+    <ClInclude Include="..\localMedia\deviceDetect.h" />
+    <ClInclude Include="..\localMedia\localAudioPlayer.h" />
+    <ClInclude Include="..\localMedia\localMedia.h" />
+    <ClInclude Include="..\localMedia\localPicturePlayer.h" />
+    <ClInclude Include="..\localMedia\localVideoPlayer.h" />
+    <ClInclude Include="..\localMedia\mediaplayer.h" />
+    <ClInclude Include="..\localMedia\pictureList.h" />
+    <ClInclude Include="..\localMedia\videoList.h" />
+    <ClInclude Include="..\ManualScan\ATV_ManualScan.h" />
+    <ClInclude Include="..\ManualScan\DVBC_ManualScan.h" />
+    <ClInclude Include="..\ManualScan\DVBT_ManualScan.h" />
+    <ClInclude Include="..\ManualScan\ManualScan.h" />
+    <ClInclude Include="..\ManualScan\ManualScan_Type.h" />
+    <ClInclude Include="..\menu\AdvanceResponse.h" />
+    <ClInclude Include="..\menu\channelMenu.h" />
+    <ClInclude Include="..\menu\ChannelResponse.h" />
+    <ClInclude Include="..\menu\DropdownUI.h" />
+    <ClInclude Include="..\menu\firstMenu.h" />
+    <ClInclude Include="..\menu\MainResponse.h" />
+    <ClInclude Include="..\menu\MenuBaseUI.h" />
+    <ClInclude Include="..\menu\MenuControl.h" />
+    <ClInclude Include="..\menu\MenuLayer.h" />
+    <ClInclude Include="..\menu\MenuResponse.h" />
+    <ClInclude Include="..\menu\PictureMenu\PictureMenuExecutor.h" />
+    <ClInclude Include="..\menu\PictureMenu\PictureMenuItemInfo.h" />
+    <ClInclude Include="..\menu\PictureResponse.h" />
+    <ClInclude Include="..\menu\SetupResponse.h" />
+    <ClInclude Include="..\menu\SetupSubResponse.h" />
+    <ClInclude Include="..\menu\SoundMenu\SoundMenuExecutor.h" />
+    <ClInclude Include="..\menu\SoundMenu\SoundMenuItemInfo.h" />
+    <ClInclude Include="..\menu\SoundModeResponse.h" />
+    <ClInclude Include="..\menu\SoundResponse.h" />
+    <ClInclude Include="..\menu\TimeResponse.h" />
+    <ClInclude Include="..\menu\TimeSubResponse.h" />
+    <ClInclude Include="..\pf\PfInfo.h" />
+    <ClInclude Include="..\rec\PVRRecodingComplete.h" />
+    <ClInclude Include="..\rec\PVRRecodingThumbnail.h" />
+    <ClInclude Include="..\rec\PVRUI.h" />
+    <ClInclude Include="..\rec\PVRUpdateProgressBar.h" />
+    <ClInclude Include="..\rec\PVRUpdateTime.h" />
+    <ClInclude Include="..\skyscanapi\skyScanAtv.h" />
+    <ClInclude Include="..\skyscanapi\skyScanDvbC.h" />
+    <ClInclude Include="..\skyscanapi\skyScanDvbS.h" />
+    <ClInclude Include="..\skyscanapi\skyScanDvbT.h" />
+    <ClInclude Include="..\skyscanapi\skyScanType.h" />
+    <ClInclude Include="..\skyscanapi\skyScanUiApi.h" />
+    <ClInclude Include="..\sources\noSignal.h" />
+    <ClInclude Include="..\sources\SignalSources.h" />
+    <ClInclude Include="..\sqlite3\sqlite3.h" />
+    <ClInclude Include="..\sqlite3\sqlite3ext.h" />
+    <ClInclude Include="..\tvplayer\atvplayer.h" />
+    <ClInclude Include="..\tvplayer\CChannel.h" />
+    <ClInclude Include="..\tvplayer\CChannelinner.h" />
+    <ClInclude Include="..\tvplayer\CChannelManager.h" />
+    <ClInclude Include="..\tvplayer\CChannelService.h" />
+    <ClInclude Include="..\tvplayer\CCPvrManager.h" />
+    <ClInclude Include="..\tvplayer\CEpgEvent.h" />
+    <ClInclude Include="..\tvplayer\CEpgManager.h" />
+    <ClInclude Include="..\tvplayer\CEpgService.h" />
+    <ClInclude Include="..\tvplayer\CPlayerService.h" />
+    <ClInclude Include="..\tvplayer\CScheduleManager.h" />
+    <ClInclude Include="..\tvplayer\CSystemService.h" />
+    <ClInclude Include="..\tvplayer\CTime.h" />
+    <ClInclude Include="..\tvplayer\dtvplayer.h" />
+    <ClInclude Include="..\tvplayer\TvPlayer.h" />
+    <ClInclude Include="..\tvplayer\tv_common.h" />
+    <ClInclude Include="..\tvplayer\tv_types.h" />
+    <ClInclude Include="..\tvreminder\TvReminder.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\cocos2d-x-3.10\cocos\2d\libcocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\sqlite3\sqlite3.def" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

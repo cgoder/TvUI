@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<scene name="mainMenu">
+  <bg>
+    <image >
+      <src>general/general_popup_bg.png</src>
+      <width>900</width>
+    </image>
+    <text >
+      <titleid>Off Timer</titleid>
+      <fontsize>46</fontsize>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+      <positionx>90</positionx>
+      <positiony>1010</positiony>
+    </text>
+    <image >
+      <src>general/general_listline.png</src>
+      <width>900</width>
+      <height>2</height>
+      <positionx>0</positionx>
+      <positiony>960</positiony>
+    </image>
+  </bg>
+  <table>
+    <rows>3</rows>
+    <cellwidth>795</cellwidth>
+    <cellheight>100</cellheight>
+    <positionx>52</positionx>
+    <positiony>600</positiony>
+  </table>
+  <menu nums="1" type="1">   
+    <id>ID_SET_ONTIME_REPEAT</id>
+    <item>Off</item>
+    <item>Once</item>
+    <item>Daily</item>
+    <assoc>Once</assoc>
+    <assoc>Daily</assoc>
+    <assocnum>2</assocnum>
+    <assocnum>3</assocnum>
+    <text>
+      <titleid>Repeat</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="2" type="6">
+    <id>ID_SET_ONTIME_HOUR</id>
+    <min>0</min>
+    <max>23</max>
+    <cur>8</cur>
+    <text >
+      <titleid>Hour</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="3" type="6">
+    <id>ID_SET_ONTIME_MINUTE</id>
+    <min>0</min>
+    <max>59</max>
+    <cur>6</cur>
+    <text >
+      <titleid>Minute</titleid>
+      <fontsize>32</fontsize>
+      <positionx>40</positionx>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+</scene>

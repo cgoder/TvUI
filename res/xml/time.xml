@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<scene name="mainMenu">
+  <bg>
+    <image >
+      <src>general/general_popup_bg.png</src>
+      <width>900</width>
+    </image>
+    <text >
+      <titleid>Time Setting</titleid>
+      <fontsize>46</fontsize>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+      <positionx>90</positionx>
+      <positiony>1010</positiony>
+    </text>
+    <image >
+      <src>general/general_listline.png</src>
+      <width>900</width>
+      <height>2</height>
+      <positionx>0</positionx>
+      <positiony>960</positiony>
+    </image>
+  </bg>
+  <table>
+    <rows>6</rows>
+    <cellwidth>795</cellwidth>
+    <cellheight>100</cellheight>
+    <positionx>52</positionx>
+    <positiony>300</positiony>
+  </table>
+  <menu nums="1">
+    <id>ID_SET_TIME_CLOCK</id>
+    <text>
+      <titleid>Clock</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="2" type ="4">
+    <id>ID_SET_TIME_SLEEP_MENU</id>
+    <item>Off</item>
+    <item>10Min</item>
+    <item>20Min</item>
+    <item>30Min</item>
+    <item>60Min</item>
+    <item>90Min</item>
+    <item>120Min</item>
+    <item>180Min</item>
+    <item>240Min</item>
+    <itemcellwidth>300</itemcellwidth>
+    <itemcellheight>84</itemcellheight>
+    <itemheight>420</itemheight>
+    <text >
+      <titleid>Sleep Timer</titleid>
+      <fontsize>32</fontsize>
+      <positionx>40</positionx>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="3" type="1">
+    <id>ID_SET_TIME_AUTO_POWER</id>
+    <item>Off</item>
+    <item>1 Hour</item>
+    <item>2 Hours</item>
+    <item>3 Hours</item>
+    <item>4 Hours</item>
+    <text >
+      <titleid>Auto Power Down</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="4" type="1">
+    <id>ID_SET_TIME_CON_VIEW_TIMER</id>
+    <item>Off</item>
+    <item>60Min</item>
+    <item>120Min</item>
+    <item>180Min</item>
+    <text>
+      <titleid>Continuous Viewing Timer</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="5">
+    <id>ID_SET_TIME_ONTIMER</id>
+    <text >
+      <titleid>On Timer</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="6">
+    <id>ID_SET_TIME_OFFTIMER</id>
+    <text >
+      <titleid>Off Timer</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+</scene>

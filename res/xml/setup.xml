@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<scene name="mainMenu">
+  <bg>
+    <image >
+      <src>general/general_popup_bg.png</src>
+      <width>900</width>
+    </image>
+    <text >
+      <titleid>Setup</titleid>
+      <fontsize>46</fontsize>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+      <positionx>90</positionx>
+      <positiony>1010</positiony>
+    </text>
+    <image >
+      <src>general/general_listline.png</src>
+      <width>900</width>
+      <height>2</height>
+      <positionx>0</positionx>
+      <positiony>960</positiony>
+    </image>
+  </bg>
+  <table>
+    <rows>13</rows>
+    <cellwidth>795</cellwidth>
+    <cellheight>100</cellheight>
+    <positionx>52</positionx>
+    <positiony>0</positiony>
+  </table>
+  <menu nums="1" type="4">
+    <id>ID_SET_OSD_LANGUAHE</id>
+    <item>English</item>
+    <item>Chinese</item>
+    <item>हिन्दी</item>
+    <item>Italic</item>
+    <item>Deutsch</item>
+    <item>Latīna</item>
+    <itemcellwidth>300</itemcellwidth>
+    <itemcellheight>84</itemcellheight>
+    <itemheight>504</itemheight>
+    <text>
+      <titleid>OSD Language</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="2" signal="DVB-C DVB-T DVB-S">
+    <id>ID_SET_AUDIO_LANGUAGE</id>
+    <text >
+      <titleid>Audio language</titleid>
+      <fontsize>32</fontsize>
+      <positionx>40</positionx>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="3" signal="DVB-C DVB-T DVB-S">
+    <id>ID_SET_SUBTITLE_LANGUAGE</id>
+    <text >
+      <titleid>Subtitle Language</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="4" type="2">
+    <id>ID_SET_HEAR_IMPAIRED</id>
+    <text>
+      <titleid>Hearing Impaired</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="5" type="4" signal="DVB-C DVB-T DVB-S ATV">
+    <id>ID_SET_TELETEXT_LANGUAGE</id>
+    <item>West Europe</item>
+    <item>East Europe</item>
+    <item>Russian</item>
+    <item>Arabic</item>
+    <item>Farsi</item>
+    <itemcellwidth>300</itemcellwidth>
+    <itemcellheight>84</itemcellheight>
+    <itemheight>336</itemheight>
+    <text >
+      <titleid>Teletext Language</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="6" signal="DVB-C DVB-T DVB-S">
+    <id>ID_SET_PVR</id>
+    <text >
+      <titleid>PVR File System</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="7">
+    <id>ID_SET_HDMI_CEC</id>
+    <text >
+      <titleid>HDMI CEC</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="8" type="1">
+    <id>ID_SET_LOCATION</id>
+    <item>Home</item>
+    <item>Store</item>
+    <text >
+      <titleid>Location</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="9">
+    <id>ID_SET_PRESENTATION</id>
+    <text >
+      <titleid>Presentation</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="10">
+    <id>ID_SET_UPDATE</id>
+    <text >
+      <titleid>Software Update</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="11">
+    <id>ID_SET_ADVANCE_OPTION</id>
+    <text >
+      <titleid>Advanced Option</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="12" type="2">
+    <id>ID_SET_BLUE_SCREEN</id>
+    <text >
+      <titleid>Blue Screen</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="13">
+    <id>ID_SET_SETUP_RESET</id>
+    <text >
+      <titleid>User Reset</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+</scene>

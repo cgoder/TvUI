@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<scene name="mainMenu">
+  <bg>
+    <image >
+      <src>general/general_popup_bg.png</src>
+      <width>600</width>
+    </image>
+    <text titleid="ID_TITLE_SET_MAIN" >
+      <fontsize>24</fontsize>
+      <color>91 91 91 255</color>
+    </text>
+  </bg>
+  <table>
+    <rows>5</rows>
+    <cellwidth>360</cellwidth>
+    <cellheight>100</cellheight>
+    <positionx>52</positionx>
+    <positiony>300</positiony>
+  </table>
+  <menu nums="1">
+    <id>ID_TITLE_SET_CHANNEL</id>
+    <func>ON_CHANNEL</func>
+    <button >
+      <srcnor>menu/first_normal_1.png</srcnor>
+      <srcsel>menu/first_focus_1.png</srcsel>
+      <positionx>50</positionx>
+    </button>
+    <text>
+      <titleid>Broadcasting</titleid>
+      <fontsize>24</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>100</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="2">
+    <type>0</type>
+    <id>ID_TITLE_SET_PIC</id>
+    <func>ON_PIC</func>
+    <button >
+      <srcnor>menu/first_normal_2.png</srcnor>
+      <srcsel>menu/first_focus_2.png</srcsel>
+      <positionx>50</positionx>
+    </button>
+    <text >
+      <titleid>Picture</titleid>
+      <fontsize>24</fontsize>
+      <positionx>100</positionx>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="3">
+    <id>ID_TITLE_SET_SOUND</id>
+    <func>ON_SOUND</func>
+    <button >
+      <srcnor>menu/first_normal_3.png</srcnor>
+      <srcsel>menu/first_focus_3.png</srcsel>
+      <positionx>50</positionx>
+    </button>
+    <text >
+      <titleid>Sound</titleid>
+      <fontsize>24</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>100</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="4">
+    <id>ID_TITLE_SET_ADVANCE</id>
+    <func>ON_ADVANCE</func>
+    <button >
+      <srcnor>menu/first_normal_4.png</srcnor>
+      <srcsel>menu/first_focus_4.png</srcsel>
+      <positionx>50</positionx>
+    </button>
+    <text>
+      <titleid>Advance</titleid>
+      <fontsize>24</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>100</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="5">
+    <id>ID_TITLE_SET_OPTIONS</id>
+    <func>ON_OPTIONS</func>
+    <type>1</type>
+    <item>NAL</item>
+    <item>ASL</item>
+    <item>PAL</item>
+    <item>YUAS</item>
+    <item>HMDK</item>
+    <button >
+      <srcnor>menu/first_normal_5.png</srcnor>
+      <srcsel>menu/first_focus_5.png</srcsel>
+      <positionx>50</positionx>
+    </button>
+    <text >
+      <titleid>Options</titleid>
+      <fontsize>24</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>100</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+</scene>

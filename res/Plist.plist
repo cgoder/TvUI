@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>resource/btn_focus.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{177,152}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{177,152}</string>
+			</dict>
+			<key>resource/btn_unfocus.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{177,80},{74,60}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{74,60}</string>
+			</dict>
+			<key>resource/icon_fav.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{211,140},{32,27}}</string>
+				<key>offset</key>
+				<string>{1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{43,35}</string>
+			</dict>
+			<key>resource/icon_lock.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{177,140},{28,34}}</string>
+				<key>offset</key>
+				<string>{1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{43,35}</string>
+			</dict>
+			<key>resource/icon_rec.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{211,167},{22,22}}</string>
+				<key>offset</key>
+				<string>{1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{43,35}</string>
+			</dict>
+			<key>resource/ipt_unfocus.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{177,0},{71,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{71,80}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist.png</string>
+			<key>size</key>
+			<string>{256,256}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>256</integer>
+			<key>height</key>
+			<integer>256</integer>
+		</dict>
+	</dict>
+</plist>

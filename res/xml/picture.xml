@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<scene name="mainMenu">
+  <bg>
+    <image >
+      <src>general/general_popup_bg.png</src>
+      <width>900</width>
+    </image>
+    <text >
+      <titleid>Picture Setting</titleid>
+      <fontsize>46</fontsize>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+      <positionx>90</positionx>
+      <positiony>1010</positiony>
+    </text>
+    <image >
+      <src>general/general_listline.png</src>
+      <width>900</width>
+      <height>2</height>
+      <positionx>0</positionx>
+      <positiony>960</positiony>
+    </image>
+  </bg>
+  <table>
+    <rows>15</rows>
+    <cellwidth>795</cellwidth>
+    <cellheight>100</cellheight>
+    <positionx>52</positionx>
+    <positiony>0</positiony>
+  </table>
+  <menu nums="1" type="1">
+    <id>ID_SET_PIC_MODE</id>
+    <item>Standard</item>
+    <item>User</item>
+    <item>Movie</item>
+    <item>Sport</item>
+    <assoc>User</assoc>
+    <assocnum>2</assocnum>
+    <assocnum>3</assocnum>
+    <assocnum>4</assocnum>
+    <assocnum>5</assocnum>
+    <text>
+      <titleid>Picture Mode</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>  
+  <menu nums="2" type="3">
+    <id>ID_SET_CONTRAST</id>
+    <text >
+      <titleid>Contrast</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="3" type="3">
+    <id>ID_SET_BRIGHTNESS</id>
+    <text>
+      <titleid>Brightness</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="4" type="3">
+    <id>ID_SET_COLOR</id>
+    <text >
+      <titleid>Color</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="5" type="3">
+    <id>ID_SET_SHARPNESS</id>
+    <text >
+      <titleid>Sharpness</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="6" type="3">
+    <id>ID_SET_BACKLIGHT</id>
+    <text >
+      <titleid>Backlight</titleid>
+      <fontsize>32</fontsize>
+      <positionx>40</positionx>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="7" type="1">
+    <id>ID_SET_COLOR_TEMP</id>
+    <item>Natural</item>
+    <item>Warm</item>
+    <item>Cool</item>
+    <text >
+      <titleid>Color Temperature</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="8" type="1">
+    <id>ID_SET_DYNAMIC_NOISE</id>
+    <item>Off</item>
+    <item>Low</item>
+    <item>Middle</item>
+    <item>High</item>
+    <text >
+      <titleid>Dynamic Noise Reduction</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="9" type="1">
+    <id>ID_SET_MPEG_NOISE</id>
+    <item>Off</item>
+    <item>Low</item>
+    <item>Middle</item>
+    <item>High</item>
+    <text >
+      <titleid>MPEG Noise Reduction</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="10" type="1">
+    <id>ID_SET_ASPECT</id>
+    <item>16:9</item>
+    <item>4:3</item>
+    <item>Movie</item>
+    <item>Native</item>
+    <item>Panoramic</item>
+    <text >
+      <titleid>Aspect Ratio</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="11" type="1">
+    <id>ID_SET_DYNAMIC_CONTRAST</id>
+    <item>On</item>
+    <item>Off</item>
+    <text >
+      <titleid>Dynamic Contrast</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="12">
+    <id>ID_SET_LIGHT_SENSOR</id>
+    <text >
+      <titleid>Light Sensor</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="13">
+    <id>ID_SET_PICTURE_SENSOR</id>
+    <text >
+      <titleid>Picture Sensor</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="14" type="1">
+    <id>ID_SET_FILM_MODE</id>
+    <item>On</item>
+    <item>Off</item>
+    <text >
+      <titleid>Film Mode</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="15">
+    <id>ID_SET_PICTURE_RESET</id>
+    <text >
+      <titleid>Picture Reset</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+</scene>

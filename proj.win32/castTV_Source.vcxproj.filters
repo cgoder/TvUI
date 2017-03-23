@@ -1,0 +1,713 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\AutoTuning\AutoTuning.cpp">
+      <Filter>src\AutoTuning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\common.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\SkyLayer.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pf\PfInfo.cpp">
+      <Filter>src\pf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tvreminder\TvReminder.cpp">
+      <Filter>src\tvreminder</Filter>
+    </ClCompile>
+    <ClCompile Include="main_Source.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChannelList\ChannelList.cpp">
+      <Filter>src\ChannelList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChannelList\ChannelListPage.cpp">
+      <Filter>src\ChannelList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChannelList\ChannelListTableView.cpp">
+      <Filter>src\ChannelList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChannelList\CustomTableViewCell.cpp">
+      <Filter>src\ChannelList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\BaseTableViewCell.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\epg\GridView\GridView.cpp">
+      <Filter>src\epg\GridView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\epg\EpgList.cpp">
+      <Filter>src\epg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\epg\ChannelHeadView.cpp">
+      <Filter>src\epg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\epg\TimeHeadView.cpp">
+      <Filter>src\epg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\SkyDialog.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\BtnFocusLayer.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\ListFocusLayer.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoTuning\ChooseDialog.cpp">
+      <Filter>src\AutoTuning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skyscanapi\skyScanAtv.cpp">
+      <Filter>src\skyscanapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skyscanapi\skyScanDvbC.cpp">
+      <Filter>src\skyscanapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skyscanapi\skyScanDvbS.cpp">
+      <Filter>src\skyscanapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skyscanapi\skyScanDvbT.cpp">
+      <Filter>src\skyscanapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\skyscanapi\skyScanUiApi.cpp">
+      <Filter>src\skyscanapi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\ChannelPin.cpp">
+      <Filter>src\ChannelList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\SetPassword.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ManualScan\ATV_ManualScan.cpp">
+      <Filter>src\ManualScan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\MenuLayer.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ManualScan\DVBC_ManualScan.cpp">
+      <Filter>src\ManualScan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ManualScan\DVBT_ManualScan.cpp">
+      <Filter>src\ManualScan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ManualScan\ManualScan.cpp">
+      <Filter>src\ManualScan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChannelEdit\ChannelEdit.cpp">
+      <Filter>src\ChannelEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\KeyBoard.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChannelEdit\ElementDisplayList.cpp">
+      <Filter>src\ChannelEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChannelList\ChannelListPageFavorite.cpp">
+      <Filter>src\ChannelList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\noSignal.cpp">
+      <Filter>src\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\SignalSources.cpp">
+      <Filter>src\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\channelMenu.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\firstMenu.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoTuning\ATVAutoTuning.cpp">
+      <Filter>src\AutoTuning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoTuning\CableAutoTuning.cpp">
+      <Filter>src\AutoTuning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoTuning\CableType.cpp">
+      <Filter>src\AutoTuning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoTuning\SateAutoTuning.cpp">
+      <Filter>src\AutoTuning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoTuning\TerreAutoTuning.cpp">
+      <Filter>src\AutoTuning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\localMedia\audioList.cpp">
+      <Filter>src\localMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\localMedia\localMedia.cpp">
+      <Filter>src\localMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\localMedia\pictureList.cpp">
+      <Filter>src\localMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\localMedia\videoList.cpp">
+      <Filter>src\localMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\localMedia\deviceDetect.cpp">
+      <Filter>src\localMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\localMedia\localVideoPlayer.cpp">
+      <Filter>src\localMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rec\PVRUI.cpp">
+      <Filter>src\rec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rec\PVRUpdateProgressBar.cpp">
+      <Filter>src\rec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rec\PVRUpdateTime.cpp">
+      <Filter>src\rec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rec\PVRRecodingThumbnail.cpp">
+      <Filter>src\rec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sqlite3\sqlite3.c">
+      <Filter>src\sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\MainResponse.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\MenuBaseUI.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\MenuControl.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\MenuResponse.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\PictureResponse.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\localMedia\localAudioPlayer.cpp">
+      <Filter>src\localMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\localMedia\localPicturePlayer.cpp">
+      <Filter>src\localMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tvScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tvplay.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tvplayer\atvplayer.cpp">
+      <Filter>src\tvplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tvplayer\CChannel.cpp">
+      <Filter>src\tvplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tvplayer\CChannelManager.cpp">
+      <Filter>src\tvplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tvplayer\CChannelService.cpp">
+      <Filter>src\tvplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tvplayer\CCPvrManager.cpp">
+      <Filter>src\tvplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tvplayer\CEpgManager.cpp">
+      <Filter>src\tvplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tvplayer\CEpgService.cpp">
+      <Filter>src\tvplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tvplayer\CPlayerService.cpp">
+      <Filter>src\tvplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tvplayer\CSystemService.cpp">
+      <Filter>src\tvplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tvplayer\CTime.cpp">
+      <Filter>src\tvplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tvplayer\dtvplayer.cpp">
+      <Filter>src\tvplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tvplayer\tv_common.cpp">
+      <Filter>src\tvplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tvplayer\TvPlayer.cpp">
+      <Filter>src\tvplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\AdvanceResponse.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\ChannelResponse.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\SoundModeResponse.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\SoundResponse.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\TimeResponse.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\PictureMenu\PictureMenuExecutor.cpp">
+      <Filter>src\menu\PictureMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\DropdownUI.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tvplayer\CScheduleManager.cpp">
+      <Filter>src\tvplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChannelList\ChannelListPageRecorded.cpp">
+      <Filter>src\ChannelList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChannelList\ChannelListPageSchRecording.cpp">
+      <Filter>src\ChannelList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ChannelList\ChannelListPageSchViewing.cpp">
+      <Filter>src\ChannelList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\eventdispacher\EventDispacher.cpp">
+      <Filter>src\eventdispacher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\eventdispacher\EventManager.cpp">
+      <Filter>src\eventdispacher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rec\PVRStartDialog.cpp">
+      <Filter>src\rec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\setting\CDatabaseService.cpp">
+      <Filter>src\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\setting\CPictureService.cpp">
+      <Filter>src\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\setting\PictureSetting.cpp">
+      <Filter>src\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\setting\UiSystemDataBase.cpp">
+      <Filter>src\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rec\CppSQLite3.cpp">
+      <Filter>src\rec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rec\PVRRecordDB.cpp">
+      <Filter>src\rec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\SetupResponse.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\SetupSubResponse.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\TimeSubResponse.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\setting\AudioSetting.cpp">
+      <Filter>src\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\setting\CAudioService.cpp">
+      <Filter>src\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rec\PVRRecodingComplete.cpp">
+      <Filter>src\rec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tvplayer\MediaPlayer.cpp">
+      <Filter>src\tvplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\menu\SoundMenu\SoundMenuExecutor.cpp">
+      <Filter>src\menu\SoundMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\guide\GuideCountry.cpp">
+      <Filter>src\guide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\guide\GuideSource.cpp">
+      <Filter>src\guide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\guide\GuideComplete.cpp">
+      <Filter>src\guide</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\AutoTuning\AutoTuning.h">
+      <Filter>src\AutoTuning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\common.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\slock.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pf\PfInfo.h">
+      <Filter>src\pf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tvreminder\TvReminder.h">
+      <Filter>src\tvreminder</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ChannelList\ChannelList.h">
+      <Filter>src\ChannelList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ChannelList\ChannelListPage.h">
+      <Filter>src\ChannelList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ChannelList\ChannelListTableView.h">
+      <Filter>src\ChannelList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ChannelList\CustomTableViewCell.h">
+      <Filter>src\ChannelList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\BaseTableViewCell.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\epg\GridView\GridView.h">
+      <Filter>src\epg\GridView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\epg\EpgList.h">
+      <Filter>src\epg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\epg\ChannelHeadView.h">
+      <Filter>src\epg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\epg\TimeHeadView.h">
+      <Filter>src\epg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\SkyDialog.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\BtnFocusLayer.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ListFocusLayer.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoTuning\ChooseDialog.h">
+      <Filter>src\AutoTuning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skyscanapi\skyScanAtv.h">
+      <Filter>src\skyscanapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skyscanapi\skyScanDvbC.h">
+      <Filter>src\skyscanapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skyscanapi\skyScanDvbS.h">
+      <Filter>src\skyscanapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skyscanapi\skyScanDvbT.h">
+      <Filter>src\skyscanapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skyscanapi\skyScanType.h">
+      <Filter>src\skyscanapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\skyscanapi\skyScanUiApi.h">
+      <Filter>src\skyscanapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ChannelPin.h">
+      <Filter>src\ChannelList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ManualScan\ATV_ManualScan.h">
+      <Filter>src\ManualScan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\MenuLayer.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ManualScan\DVBC_ManualScan.h">
+      <Filter>src\ManualScan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ManualScan\DVBT_ManualScan.h">
+      <Filter>src\ManualScan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ManualScan\ManualScan.h">
+      <Filter>src\ManualScan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ManualScan\ManualScan_Type.h">
+      <Filter>src\ManualScan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ChannelEdit\ChannelEdit.h">
+      <Filter>src\ChannelEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\KeyBoard.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ChannelEdit\ElementDisplayList.h">
+      <Filter>src\ChannelEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ChannelList\ChannelListPageFavorite.h">
+      <Filter>src\ChannelList</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\noSignal.h">
+      <Filter>src\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\SignalSources.h">
+      <Filter>src\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\SkyLayer.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\channelMenu.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\firstMenu.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoTuning\ATVAutoTuning.h">
+      <Filter>src\AutoTuning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoTuning\CableAutoTuning.h">
+      <Filter>src\AutoTuning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoTuning\CableType.h">
+      <Filter>src\AutoTuning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoTuning\SateAutoTuning.h">
+      <Filter>src\AutoTuning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoTuning\TerreAutoTuning.h">
+      <Filter>src\AutoTuning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\localMedia\audioList.h">
+      <Filter>src\localMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\localMedia\localMedia.h">
+      <Filter>src\localMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\localMedia\pictureList.h">
+      <Filter>src\localMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\localMedia\videoList.h">
+      <Filter>src\localMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\localMedia\deviceDetect.h">
+      <Filter>src\localMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\localMedia\localVideoPlayer.h">
+      <Filter>src\localMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\localMedia\mediaplayer.h">
+      <Filter>src\localMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rec\PVRUI.h">
+      <Filter>src\rec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rec\PVRUpdateProgressBar.h">
+      <Filter>src\rec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rec\PVRUpdateTime.h">
+      <Filter>src\rec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rec\PVRRecodingThumbnail.h">
+      <Filter>src\rec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sqlite3\sqlite3.h">
+      <Filter>src\sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sqlite3\sqlite3ext.h">
+      <Filter>src\sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\MainResponse.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\MenuBaseUI.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\MenuControl.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\MenuResponse.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\PictureResponse.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\localMedia\localAudioPlayer.h">
+      <Filter>src\localMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\localMedia\localPicturePlayer.h">
+      <Filter>src\localMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tvplayer\atvplayer.h">
+      <Filter>src\tvplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tvplayer\CChannel.h">
+      <Filter>src\tvplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tvplayer\CChannelinner.h">
+      <Filter>src\tvplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tvplayer\CChannelManager.h">
+      <Filter>src\tvplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tvplayer\CChannelService.h">
+      <Filter>src\tvplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tvplayer\CCPvrManager.h">
+      <Filter>src\tvplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tvplayer\CEpgEvent.h">
+      <Filter>src\tvplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tvplayer\CEpgManager.h">
+      <Filter>src\tvplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tvplayer\CEpgService.h">
+      <Filter>src\tvplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tvplayer\CPlayerService.h">
+      <Filter>src\tvplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tvplayer\CSystemService.h">
+      <Filter>src\tvplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tvplayer\CTime.h">
+      <Filter>src\tvplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tvplayer\dtvplayer.h">
+      <Filter>src\tvplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tvplayer\tv_common.h">
+      <Filter>src\tvplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tvplayer\tv_types.h">
+      <Filter>src\tvplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tvplayer\TvPlayer.h">
+      <Filter>src\tvplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\AdvanceResponse.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\ChannelResponse.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\SoundModeResponse.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\SoundResponse.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\TimeResponse.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\PictureMenu\PictureMenuExecutor.h">
+      <Filter>src\menu\PictureMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\PictureMenu\PictureMenuItemInfo.h">
+      <Filter>src\menu\PictureMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\DropdownUI.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tvplayer\CScheduleManager.h">
+      <Filter>src\tvplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\SetupResponse.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\SetupSubResponse.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\TimeSubResponse.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\rec\PVRRecodingComplete.h">
+      <Filter>src\rec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\SoundMenu\SoundMenuExecutor.h">
+      <Filter>src\menu\SoundMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\menu\SoundMenu\SoundMenuItemInfo.h">
+      <Filter>src\menu\SoundMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\guide\GuideCountry.h">
+      <Filter>src\guide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\guide\GuideSource.h">
+      <Filter>src\guide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\guide\GuideComplete.h">
+      <Filter>src\guide</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{08c3740c-716b-4732-bd62-1bf38d9b9f32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AutoTuning">
+      <UniqueIdentifier>{a21e9e32-f4ff-4e6d-aa35-3694d385a558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{2703ca23-4739-4f47-b540-85b0f1ccdb77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pf">
+      <UniqueIdentifier>{0bf1eff5-9696-4267-9401-2e5b094dcea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tvplayer">
+      <UniqueIdentifier>{77caa414-a54f-4dbe-8df6-d0fec0fa16c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tvreminder">
+      <UniqueIdentifier>{f66ae897-7464-4d92-b139-0caa81054fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{5165841e-1e21-4b5a-8c4c-5775571402d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ChannelList">
+      <UniqueIdentifier>{7becfaf3-85c3-4232-a050-03a057a11c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\epg">
+      <UniqueIdentifier>{9460858d-880c-4093-a73f-1d2db7aa20f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\epg\GridView">
+      <UniqueIdentifier>{cdc9e130-945f-4a08-b007-9a0c997d110a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\skyscanapi">
+      <UniqueIdentifier>{35d68fec-06ad-498e-a963-64b07f6baca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ManualScan">
+      <UniqueIdentifier>{f430aeba-a2cd-4de3-8225-4215cfc3107c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu">
+      <UniqueIdentifier>{b4114ed2-4075-4382-85a5-263de67c4cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ChannelEdit">
+      <UniqueIdentifier>{fe3fecbc-2301-4ef6-be86-a0d5e20a2a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sources">
+      <UniqueIdentifier>{7d0d3944-a297-450e-ac93-63d206d1e163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\localMedia">
+      <UniqueIdentifier>{a31d9bc6-1735-4721-bdc0-d925575b8000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\rec">
+      <UniqueIdentifier>{f389757a-a947-40f1-b27d-46c57689a5f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sqlite3">
+      <UniqueIdentifier>{0d2f8252-651f-494e-8127-8535b85fc654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu\PictureMenu">
+      <UniqueIdentifier>{8e7fc740-79bc-463b-b096-9e37dff4e7b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\eventdispacher">
+      <UniqueIdentifier>{8430f4b7-bc7a-4bfe-a87d-3ce6501308d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\setting">
+      <UniqueIdentifier>{770b1e82-35ff-4063-b089-93e1cb5f42b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu\SoundMenu">
+      <UniqueIdentifier>{77555f77-cc65-48a4-94a8-43fda79cd622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\guide">
+      <UniqueIdentifier>{0e6b3bbf-5f22-4a27-b1c3-89f72a063cce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\sqlite3\sqlite3.def">
+      <Filter>src\sqlite3</Filter>
+    </None>
+  </ItemGroup>
+</Project>

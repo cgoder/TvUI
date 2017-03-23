@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<scene name="mainMenu">
+  <bg>
+    <image >
+      <src>general/general_popup_bg.png</src>
+      <width>900</width>
+    </image>
+    <text >
+      <titleid>Clock</titleid>
+      <fontsize>46</fontsize>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+      <positionx>90</positionx>
+      <positiony>1010</positiony>
+    </text>
+    <image >
+      <src>general/general_listline.png</src>
+      <width>900</width>
+      <height>2</height>
+      <positionx>0</positionx>
+      <positiony>960</positiony>
+    </image>
+  </bg>
+  <table>
+    <rows>8</rows>
+    <cellwidth>795</cellwidth>
+    <cellheight>100</cellheight>
+    <positionx>52</positionx>
+    <positiony>100</positiony>
+  </table>
+  <menu nums="1" type="1">   
+    <id>ID_SET_CLOCK_MODE</id>
+    <item>Auto</item>
+    <item>Manual</item>
+    <assoc>Manual</assoc>
+    <assocnum>2</assocnum>
+    <assocnum>3</assocnum>
+    <assocnum>4</assocnum>
+    <assocnum>5</assocnum>
+    <assocnum>6</assocnum>
+    <text>
+      <titleid>Clock Mode</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="2" type="6">
+    <id>ID_SET_CLOCK_DAY</id>
+    <min>1</min>
+    <max>31</max>
+    <cur>8</cur>
+    <text >
+      <titleid>Day</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="3" type="6">
+    <id>ID_SET_CLOCK_MONTH</id>
+    <min>1</min>
+    <max>12</max>
+    <cur>6</cur>
+    <text >
+      <titleid>Month</titleid>
+      <fontsize>32</fontsize>
+      <positionx>40</positionx>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="4" type="6">
+    <id>ID_SET_CLOCK_YEAR</id>
+    <min>1970</min>
+    <max>2040</max>
+    <cur>2016</cur>
+    <text >
+      <titleid>Year</titleid>
+      <fontsize>32</fontsize>
+      <positionx>40</positionx>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="5" type="6">
+    <id>ID_SET_CLOCK_HOUR</id>
+    <min>0</min>
+    <max>23</max>
+    <cur>12</cur>
+    <text >
+      <titleid>Hour</titleid>
+      <fontsize>32</fontsize>
+      <positionx>40</positionx>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="6" type="6">
+    <id>ID_SET_CLOCK_MINUTES</id>
+    <min>0</min>
+    <max>59</max>
+    <cur>30</cur>
+    <text >
+      <titleid>Minute</titleid>
+      <fontsize>32</fontsize>
+      <positionx>40</positionx>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="7" type="1">
+    <id>ID_SET_CLOCK_TIMEZONE</id>
+    <item>GMT+00:00</item>
+    <item>GMT+00:30</item>
+    <item>GMT+01:00</item>
+    <item>GMT+01:30</item>
+    <item>GMT+02:00</item>
+    <item>GMT+02:30</item>
+    <item>GMT+03:00</item>
+    <item>GMT+03:30</item>
+    <item>GMT+04:00</item>
+    <item>GMT+04:30</item>
+    <item>GMT+05:00</item>
+    <item>GMT+05:30</item>
+    <item>GMT+06:00</item>
+    <item>GMT+06:30</item>
+    <item>GMT+07:00</item>
+    <item>GMT+07:30</item>
+    <item>GMT+08:00</item>
+    <item>GMT+08:30</item>
+    <item>GMT+09:00</item>
+    <item>GMT+09:30</item>
+    <item>GMT+10:00</item>
+    <item>GMT+10:30</item>
+    <item>GMT+11:00</item>
+    <item>GMT+11:30</item>
+    <item>GMT+12:00</item>
+    <itemcellwidth>300</itemcellwidth>
+    <itemcellheight>84</itemcellheight>
+    <itemheight>504</itemheight>
+    <text >
+      <titleid>Time Zone</titleid>
+      <fontsize>32</fontsize>
+      <positionx>40</positionx>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="8" type="2">
+    <id>ID_SET_SUMMER_TIME</id>
+    <text >
+      <titleid>Summer Time</titleid>
+      <fontsize>32</fontsize>
+      <positionx>40</positionx>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+</scene>

@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<scene name="mainMenu">
+  <bg>
+    <image >
+      <src>general/general_popup_bg.png</src>
+      <width>900</width>
+    </image>
+    <text >
+      <titleid>Sound Setting</titleid>
+      <fontsize>46</fontsize>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+      <positionx>90</positionx>
+      <positiony>1010</positiony>
+    </text>
+    <image >
+      <src>general/general_listline.png</src>
+      <width>900</width>
+      <height>2</height>
+      <positionx>0</positionx>
+      <positiony>960</positiony>
+    </image>
+  </bg>
+  <table>
+    <rows>9</rows>
+    <cellwidth>795</cellwidth>
+    <cellheight>100</cellheight>
+    <positionx>52</positionx>
+    <positiony>0</positiony>
+  </table>
+  <menu nums="1">
+    <id>ID_SET_SOUND_MODE</id>
+    <text>
+      <titleid>Sound Mode</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="2" type="3">
+    <id>ID_SET_SOUND_BALANCE</id>
+    <min>-50</min>
+    <max>50</max>
+    <text >
+      <titleid>Balance</titleid>
+      <fontsize>32</fontsize>
+      <positionx>40</positionx>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="3" type="2">
+    <id>ID_SET_SOUND_AUTO_VULUME</id>
+    <text >
+      <titleid>Auto Volume</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="4" type="2">
+    <id>ID_SET_SOUND_SURROUND</id>
+    <text>
+      <titleid>Surround Sound</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="5" type="1">
+    <id>ID_SET_SOUND_AAOUTPUT</id>
+    <item>Headphone</item>
+    <item>Lineout</item>
+    <text >
+      <titleid>Analog Audio Output</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="6" type="1">
+    <id>ID_SET_SOUND_DAOUTPUT</id>
+    <item>PCM</item>
+    <item>Auto</item>
+    <text >
+      <titleid>Digital Audio Output</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="7" type="1">
+    <id>ID_SET_SOUND_HDMI</id>
+    <item>Auto</item>
+    <item>Digital</item>
+    <item>Analog</item>
+    <text >
+      <titleid>Audio HDMI</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="8" signal="DVB-C DVB-T DVB-S">
+    <id>ID_SET_SOUND_DES</id>
+    <text >
+      <titleid>Audio Description</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="9">
+    <id>ID_SET_SOUND_RESET</id>
+    <text >
+      <titleid>Sound Reset</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+</scene>

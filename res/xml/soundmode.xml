@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<scene name="mainMenu">
+  <bg>
+    <image >
+      <src>general/general_popup_bg.png</src>
+      <width>900</width>
+    </image>
+    <text >
+      <titleid>Sound Mode Setting</titleid>
+      <fontsize>46</fontsize>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+      <positionx>90</positionx>
+      <positiony>1010</positiony>
+    </text>
+    <image >
+      <src>general/general_listline.png</src>
+      <width>900</width>
+      <height>2</height>
+      <positionx>0</positionx>
+      <positiony>960</positiony>
+    </image>
+  </bg>
+  <table>
+    <rows>9</rows>
+    <cellwidth>795</cellwidth>
+    <cellheight>100</cellheight>
+    <positionx>52</positionx>
+    <positiony>0</positiony>
+  </table>
+  <menu nums="1" type="1">   
+    <id>ID_SET_SOUND_MODE1</id>
+    <item>Standard</item>
+    <item>Music</item>
+    <item>Movie</item>
+    <item>User</item>
+    <assoc>User</assoc>
+    <assocnum>2</assocnum>
+    <assocnum>3</assocnum>
+    <assocnum>4</assocnum>
+    <assocnum>5</assocnum>
+    <assocnum>6</assocnum>
+    <assocnum>7</assocnum>
+    <assocnum>8</assocnum>
+    <assocnum>9</assocnum>
+    <text>
+      <titleid>Sound Mode</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="2" type="2">
+    <id>ID_SET_SOUND_EQU</id>
+    <text >
+      <titleid>Equalizer Mode</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="3" type="3">
+    <id>ID_SET_SOUND_BASS</id>
+    <text >
+      <titleid>Bass</titleid>
+      <fontsize>32</fontsize>
+      <positionx>40</positionx>
+      <color>91 91 91 255</color>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="4" type="3">
+    <id>ID_SET_SOUND_TREBLE</id>
+    <text >
+      <titleid>Treble</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="5" type="3">
+    <id>ID_SET_SOUND_120HZ</id>
+    <text>
+      <titleid>120Hz</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="6" type="3">
+    <id>ID_SET_SOUND_500HZ</id>
+    <text >
+      <titleid>500Hz</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="7" type="3">
+    <id>ID_SET_SOUND_1.5KHZ</id>
+    <text >
+      <titleid>1.5KHz</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="8" type="3">
+    <id>ID_SET_SOUND_5KHZ</id>
+    <text >
+      <titleid>5KHZ</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+  <menu nums="9" type="3">
+    <id>ID_SET_SOUND_10KHZ</id>
+    <text >
+      <titleid>10KHZ</titleid>
+      <fontsize>32</fontsize>
+      <color>91 91 91 255</color>
+      <positionx>40</positionx>
+      <anchorx>0</anchorx>
+    </text>
+  </menu>
+</scene>

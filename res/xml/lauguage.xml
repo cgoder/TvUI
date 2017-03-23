@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<scene name="mainMenu">
+  <bg>
+    <image >
+      <src>general/general_popup_bg.png</src>
+      <width>300</width>
+      <height>720</height>
+      <positionx>1050</positionx>
+      <positiony>500</positiony>
+    </image>
+    <text titleid="ID_TITLE_SET_MAIN" >
+      <fontsize>24</fontsize>
+      <color>91 91 91 255</color>
+    </text>
+  </bg>
+  <table>
+    <rows>5</rows>
+    <cellwidth>300</cellwidth>
+    <cellheight>84</cellheight>
+    <positionx>1050</positionx>
+    <positiony>500</positiony>
+  </table>
+  <menu nums="1" type="4">
+    <id>ID_TITLE_SET_LAUGUAGE</id>
+    <item>NAL</item>
+    <item>ASL</item>
+    <item>PAL</item>
+    <item>YUAS</item>
+    <item>HMDK</item>
+  </menu>
+</scene>
